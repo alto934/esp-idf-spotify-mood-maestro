@@ -46,3 +46,7 @@ An IoT project integrating Spotify music streaming with ESP32-C6 microcontroller
 4. Take note of the MAC Address and remember to put that in the RFID Arduino code.
 
 5. You can change the durations of the fade as well as the colors associated with each mood.
+
+## Using the whole player:
+1. You will have to click the Authorization link that is printed in the Monitor tab of the Spotify ESP32-C6. It will open the Spotify Auth Page in your browser. Click Agree. Once page redirects and shows `Authorization Recieved` you can close the page and use the player.
+2. The most pressing improvement required for the project is the automatic refreshing of the access token which will remove the need for repeated authorization.
