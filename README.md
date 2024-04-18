@@ -15,6 +15,6 @@ An IoT project integrating Spotify music streaming with ESP32-C6 microcontroller
 
 5. Configure your redirect URL. It should be of the form `http://ESP_IP_ADDRESS/` in the code. This is necessary to make the authorization request and get the access token for the Spotify API. Remember to update this redirect URL on the Spotify developer dashboard of the project you made in step 1.
 
-6. Using `menuconfig`, edit the configurations for HTTPS to allow insecure requests and TLS to skip server verification.
+6. Using `menuconfig`, edit the configurations of the ESP for HTTPS to allow insecure requests and TLS to skip server verification.
 
 7. Build, flash, and monitor the project!
