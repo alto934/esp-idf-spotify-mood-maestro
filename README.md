@@ -33,3 +33,16 @@ An IoT project integrating Spotify music streaming with ESP32-C6 microcontroller
 
 5. Tap an RFID card on the reader and check if the UID is being read and sent successfully.
 
+# LED ESP32-C6
+
+## Steps
+
+1. Assuming you have configured the ESP-IDF extension properly on VSCode, open the `led_strip` folder in your workspace.
+
+2. Make the necessary connections from the LED Strip to the ESP.
+
+3. Build, Flash, and Monitor.
+
+4. Take note of the MAC Address and remember to put that in the RFID Arduino code.
+
+5. You can change the durations of the fade as well as the colors associated with each mood.
