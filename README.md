@@ -18,3 +18,18 @@ An IoT project integrating Spotify music streaming with ESP32-C6 microcontroller
 6. Using `menuconfig`, edit the configurations of the ESP for HTTPS to allow insecure requests and TLS to skip server verification.
 
 7. Build, flash, and monitor the project!
+
+# RFID Reader ESP32-WROOM-32D (Running Arduino)
+
+## Steps
+
+1. Open the sketch in `RFID_ESPNOW_SENDER` in the Arduino IDE.
+
+2. Select the board as `DOIT ESP32 DEVKIT 1` and select the corresponding COM Port.
+
+3. Connect the MFRC22 to the ESP32. The connection diagram can be found in the Report PDF. Also, make the serial connection to the Spotify ESP32-C6 [Rx1 to pin 4 of Spotify ESP].
+
+4. Upload and open the Serial Monitor.
+
+5. Tap an RFID card on the reader and check if the UID is being read and sent successfully.
+
