@@ -19,9 +19,9 @@ An IoT project integrating Spotify music streaming with ESP32-C6 microcontroller
 
 7. Build, flash, and monitor the project!
 
-# RFID Reader ESP32-WROOM-32D (Running Arduino)
+## RFID Reader ESP32-WROOM-32D (Running Arduino)
 
-## Steps
+### Steps
 
 1. Open the sketch in `RFID_ESPNOW_SENDER` in the Arduino IDE.
 
@@ -33,9 +33,9 @@ An IoT project integrating Spotify music streaming with ESP32-C6 microcontroller
 
 5. Tap an RFID card on the reader and check if the UID is being read and sent successfully.
 
-# LED ESP32-C6
+## LED ESP32-C6
 
-## Steps
+### Steps
 
 1. Assuming you have configured the ESP-IDF extension properly on VSCode, open the `led_strip` folder in your workspace.
 
